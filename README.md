@@ -50,9 +50,3 @@ It demonstrates the correct implementation of background audio recording using *
 4.  **Stop:** Press **Stop** in the app or the **Stop** button in the notification.
 5.  **Listen:** Click "My Recordings" to view and play your files.
 
-## 📄 License
-
-This project is created for educational purposes as part of the "Mobile Platform Programming" course.
-
----
-**Developed by:** [Your Name]
