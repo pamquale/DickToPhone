@@ -36,7 +36,7 @@ It demonstrates the correct implementation of background audio recording using *
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/DickToPhone.git](https://github.com/YOUR_USERNAME/DickToPhone.git)
+    git clone [https://github.com/pamquale/DickToPhone.git](https://github.com/pamquale/DickToPhone.git)
     ```
 2.  Open the project in **Android Studio**.
 3.  Sync project with Gradle files.
