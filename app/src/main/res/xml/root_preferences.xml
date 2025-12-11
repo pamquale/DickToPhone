@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Основні">
+        <EditTextPreference
+            android:key="pref_max_duration_min"
+            android:title="Макс. тривалість запису (хв)"
+            android:defaultValue="60"
+            app:useSimpleSummaryProvider="true"
+            android:inputType="number"
+            android:dialogTitle="Введіть тривалість (хв)"/>
+
+        <Preference
+            android:key="pref_output_dir"
+            android:title="Папка збереження (SAF)"
+            android:summary="Натисніть для вибору папки"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Додатково (Завдання *)">
+        <ListPreference
+            android:key="pref_quality"
+            android:title="@string/pref_quality_title"
+            android:summary="%s"
+            android:entries="@array/quality_entries"
+            android:entryValues="@array/quality_values"
+            android:defaultValue="high" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_loop"
+            android:title="@string/pref_loop_title"
+            android:summary="@string/pref_loop_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DickToPhone</string>
+    <string name="title_settings">Налаштування</string>
+    <string name="title_recordings">Мої записи</string>
+    <string name="status_ready">Готовий до запису</string>
+    <string name="status_recording">Йде запис...</string>
+    <string name="status_stopped">Зупинено</string>
+    <string name="timer_zero">00:00</string>
+    <string name="folder_internal">Папка: внутрішня (Music/)</string>
+    <string name="folder_saf">Папка (SAF): %s</string>
+    <string name="btn_start">Старт</string>
+    <string name="btn_stop">Стоп</string>
+    <string name="btn_settings">Налаштування</string>
+    <string name="btn_list">Мої записи</string>
+    <string name="notice_text">Пам\'ятка: Android вимагає помітне сповіщення при записі звуку.</string>
+    <string name="notif_title">Запис іде</string>
+    <string name="notif_text">Диктофон працює (Foreground Service)</string>
+    <string name="notif_stop">Стоп</string>
+    <string name="error_no_space">Немає вільного місця!</string>
+    <string name="pref_quality_title">Якість запису</string>
+    <string name="pref_loop_title">Циклічний запис</string>
+    <string name="pref_loop_summary">Почати новий файл після завершення таймера</string>
+</resources>
