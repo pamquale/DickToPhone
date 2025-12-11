@@ -19,14 +19,6 @@ It demonstrates the correct implementation of background audio recording using *
 * **💾 Storage Check:** Prevents recording start if free space is less than 5MB.
 * **🔄 Loop Recording:** Option to automatically start a new recording file when the timer limit is reached.
 
-## 📱 Screenshots
-
-| Main Screen | Recording | Settings | My Recordings |
-|:-----------:|:---------:|:--------:|:-------------:|
-| <img src="screenshots/main.png" width="200"/> | <img src="screenshots/recording.png" width="200"/> | <img src="screenshots/settings.png" width="200"/> | <img src="screenshots/list.png" width="200"/> |
-
-*(Note: Add your screenshots to a `screenshots` folder in your repo to make them visible)*
-
 ## 🛠️ Tech Stack
 
 * **Language:** Java 17
